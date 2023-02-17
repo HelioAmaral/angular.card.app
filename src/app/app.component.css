@@ -1,0 +1,8 @@
+
+/*because we can't use app-root to select itself :host is how we select the component itself on css*/
+:host{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5em 15em;
+}
